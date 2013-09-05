@@ -9,3 +9,5 @@ with simple, yet flexibile controls.
 Great for robotics and other projects that need realtime feedback and input adjustment from within the
 console environment.
 
+In an early stage of development, but already a useful tool.  Next set of enhancements targeting more controls,
+control display options and timing.  Also looking into adding trigger events for the controls.
