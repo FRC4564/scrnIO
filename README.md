@@ -1,13 +1,14 @@
 scrnIO
 ======
 
-A Python module that provides realtime screen output and terminal input, built using the curses module.
+A Python module that provides real-time screen output and terminal input, built around the 'curses' module.
 Low-level functions are available for diplaying text with color and terminal attributes, and high-level
-objects support intutive input and display of data.  Functionality is built with a focus on realtime processing
-with simple, yet flexibile controls.
+objects support intutive input and dynamic display of data. It is purpose built with a focus on real-time
+processing and ease of use.
 
 Great for robotics and other projects that need realtime feedback and input adjustment from within the
 console environment.
 
-In an early stage of development, but already a useful tool.  Next set of enhancements targeting more controls,
-control display options and timers.  Also looking into adding trigger events for the controls.
+In an early stage of development, but already a useful tool.  Next set of enhancements targeting range and
+error checking, adding additional controls, such as timers and input boxes.  Also looking into adding trigger
+events for the controls.
