@@ -413,7 +413,14 @@ class hbar:
         if self.selected:
             pal = self.colorselected
         # Calculate postition of value along length of bar
-        cells = int(round(float(self.value - self.min) / self.range * self.length))
+        if self.value < self.min:
+            value = self.min
+        else:
+            if self.value > self.max:
+                value = self.max
+            else:
+                value = self.value
+        cells = int(round(float(value - self.min) / self.range * self.length))
         # Show bar
         self.scrn.moveto(self.row+1,self.col+1)
         if self.type == 'FILL':
